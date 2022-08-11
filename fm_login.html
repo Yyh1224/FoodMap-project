@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>登入</title>
+    <link rel=stylesheet type="text/css" href="foodmap.css">
+  </head>
+  <body style="background-image: url(design.png);">
+    <div class="box center-in-center">
+      <h2 style="margin-top: -60px; margin-bottom: 50px;">登入</h2>
+        <form name="login" action="fm_login.php" method="post">
+          <table cellspacing="1" cellpadding="5">
+            <tr>
+              <td><span id="red">*</span>帳號:<br><input type="text" name="username" size="25"></td>
+            </tr>
+            <tr>
+              <td><span id="red">*</span>密碼:<br><input type="password" name="password" size="25"></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><input type="submit" name="login" value="登入"><input type="button" value="回首頁" onclick="location.href='http://localhost/foodmap/fm_visitor.php'"></td>
+            </tr>
+          </table>
+        </form>
+</body>
+</html>
